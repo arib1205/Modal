@@ -1,0 +1,23 @@
+#field {width: 185px;}
+/* #btn {background-color: red;
+  position: absolute;
+padding-right: 1200px;} */
+#bg {position: fixed; height: 100%; width: 100%; background: rgba(0,0,0,0.5); left: 0; top: 0; display: none;}
+#CURImodal {position: absolute; height: 300px; width: 600px; top: 50%; left: 50%; margin-top: -150px; margin-left: -300px; background: #fff; display: none;}
+#CURImodal div {display: inline-block;}
+#CURImodal img {height: 100px; width: 100px; opacity: 0.8; cursor: pointer; }
+#CURImodal img:hover {opacity: 1;}
+.descr {position: relative; width: 180px; padding: 0 0 0 70px ;}
+
+.inner-addon {
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding-right: 1100px;
+}
+
+.right-addon .glyphicon { right: 0px;}
+.right-addon input { padding-right: 30px; }
